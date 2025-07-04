@@ -6,7 +6,8 @@ A deep learning project that detects emotions from facial expressions and recomm
 
 ## Overview
 
-- Utilizes a Convolutional Neural Network (CNN) for facial emotion recognition, based on the architecture from "Facial emotion recognition using CNNs".
+- Utilizes a Convolutional Neural Network (CNN) for facial emotion recognition, based on the architecture from "Facial emotion
+- recognition using CNNs".
 - Trained on FER-2013 and additional datasets (YoungAffectNet HQ, RAF-DB) to address class imbalance.
 - Maps detected emotions (angry, disgusted, fearful, happy, sad, neutral, surprised) to music recommendations.
 
@@ -35,4 +36,3 @@ A deep learning project that detects emotions from facial expressions and recomm
 
 
 
-**Note:** For academic use only.
