@@ -1,3 +1,4 @@
+
 # Facial-Recognition-Paper-Implementation
 
 A deep learning project that detects emotions from facial expressions and recommends music to match the user's mood.
@@ -6,8 +7,7 @@ A deep learning project that detects emotions from facial expressions and recomm
 
 ## Overview
 
-- Utilizes a Convolutional Neural Network (CNN) for facial emotion recognition, based on the architecture from "Facial emotion
-- recognition using CNNs".
+- Utilizes a Convolutional Neural Network (CNN) for facial emotion recognition, based on the architecture from "Facial emotion recognition using CNNs".
 - Trained on FER-2013 and additional datasets (YoungAffectNet HQ, RAF-DB) to address class imbalance.
 - Maps detected emotions (angry, disgusted, fearful, happy, sad, neutral, surprised) to music recommendations.
 
@@ -34,5 +34,40 @@ A deep learning project that detects emotions from facial expressions and recomm
 
 ---
 
+## Usage
 
+1. **Clone and install dependencies:**
+    ```
+    git clone https://github.com/DevanshSharma867/Facial-Emotion-Recognition-with-Music-Recommendation.git
+    cd Facial-Emotion-Recognition-with-Music-Recommendation
+    pip install -r requirements.txt
+    ```
+2. **Prepare datasets:** Place FER-2013, YoungAffectNet HQ, and RAF-DB in the `data/` directory.
+3. **Train the model:**
+    ```
+    python train.py
+    ```
+4. **Run emotion detection and get music recommendations:**
+    ```
+    python recommend_music.py --image path_to_face_image.jpg
+    ```
 
+---
+
+## Findings
+
+- Addressing class imbalance significantly reduces overfitting and improves generalization.
+- Increasing dataset size and using regularization techniques (Dropout, BatchNorm) enhance model performance.
+- Adding Conv layers in later stages can boost accuracy.
+
+---
+
+## Future Directions
+
+- Integrate real-time webcam emotion detection.
+- Enhance music matching logic.
+- Deploy as a web or mobile application.
+
+---
+
+**Note:** For academic use only.
