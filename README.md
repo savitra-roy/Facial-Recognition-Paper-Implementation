@@ -38,8 +38,8 @@ A deep learning project that detects emotions from facial expressions and recomm
 
 1. **Clone and install dependencies:**
     ```
-    git clone https://github.com/DevanshSharma867/Facial-Emotion-Recognition-with-Music-Recommendation.git
-    cd Facial-Emotion-Recognition-with-Music-Recommendation
+    git clone https://github.com/savitra-roy/Facial-Recognition-Paper-Implementation.git
+    cd Facial-Recognition-Paper-Implementation
     pip install -r requirements.txt
     ```
 2. **Prepare datasets:** Place FER-2013, YoungAffectNet HQ, and RAF-DB in the `data/` directory.
